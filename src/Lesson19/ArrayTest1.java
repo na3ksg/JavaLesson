@@ -13,6 +13,10 @@ public class ArrayTest1 {
 		list.add("Ami");
 		list.add("Ken");
 
+		// さらに、要素の追加
+		list.add("Mike");
+		list.add("Mimi");
+
 		// 要素の参照
 		for (int i = 0; i < list.size(); i++) {
 			System.out.println(list.get(i));
