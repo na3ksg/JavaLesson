@@ -9,6 +9,10 @@ public class ToyShop {
 
 		suzuki.checkPrice(car1, car2, train1);
 
+		System.out.println("特別セールだよ！電車の値段を600円に値下げだ！");
+		train1.setPrice(600);
+		suzuki.checkPrice(car1, car2, train1);
+
 		suzuki.doDemo(car1, car2, train1);
 
 	}
