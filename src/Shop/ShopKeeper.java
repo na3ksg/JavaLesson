@@ -2,6 +2,10 @@ package Shop;
 public class ShopKeeper {
 	String name_;
 
+	public ShopKeeper(String name) {
+		name_ = name;
+	}
+
 	public void checkPrice(CarToy kuruma1, CarToy kuruma2, TrainToy train1) {
 		System.out.println("私が店長の" + name_ + "だ！これから価格をチェックするぞ！");
 		System.out.println("商品コード：" + kuruma1.code_ + "の価格は" + kuruma1.price_ + "です。");
