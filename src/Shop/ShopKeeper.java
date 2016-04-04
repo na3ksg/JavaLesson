@@ -19,12 +19,10 @@ public class ShopKeeper {
 		System.out.println("私が店長の" + name_ + "だ！これからデモをするぞ！");
 		System.out.println("クルマ1を走らせるぞ！");
 		kuruma1.go();
-		System.out.println("クルマ2を走らせるぞ！");
+		System.out.println("パトカーを走らせるぞ！");
 		patoka.go();
 		System.out.println("電車を走らせるぞ！");
 		train1.go();
-		System.out.println("パトカーのサイレンを鳴らすぞ！");
-		patoka.siren();
 		System.out.println("\n");
 		
 	}

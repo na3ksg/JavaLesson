@@ -4,8 +4,7 @@ public class PatrolCarToy extends CarToy {
 	public PatrolCarToy(String code, int price) {
 		super(code, price);
 	}
-	// サイレンを鳴らす
-	public void siren() {
-		System.out.println("ウーウー");
+	public void go() {
+		System.out.println("ウーウー、ブロロロッー！");
 	}
 }
