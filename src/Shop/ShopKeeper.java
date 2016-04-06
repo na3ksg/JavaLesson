@@ -15,14 +15,10 @@ public class ShopKeeper {
 		
 	}
 
-	public void doDemo(CarToy kuruma1,  CarToy patoka, TrainToy train1) {
+	public void doDemo(Toy omocha) {
 		System.out.println("私が店長の" + name_ + "だ！これからデモをするぞ！");
-		System.out.println("クルマ1を走らせるぞ！");
-		kuruma1.go();
-		System.out.println("パトカーを走らせるぞ！");
-		patoka.go();
-		System.out.println("電車を走らせるぞ！");
-		train1.go();
+		System.out.println("オモチャを走らせるぞ！");
+		omocha.go();
 		System.out.println("\n");
 		
 	}

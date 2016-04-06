@@ -1,5 +1,5 @@
 package Shop;
-public class TrainToy {
+public class TrainToy implements Toy {
 	private String code_;
 	private int price_;
 
