@@ -1,5 +1,5 @@
 package Player;
-public class VideoPlayer extends AVPlayer {
+public class VideoPlayer implements AVPlayer {
 	public void play() {
 		System.out.println("映像を再生します。");
 	}
