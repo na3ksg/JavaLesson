@@ -1,11 +1,11 @@
 package Shop;
+import java.util.ArrayList;
 public class FullDemo implements Demo {
-	public void execute(CarToy kuruma, PatrolCarToy patoka, TrainToy densya) {
-		kuruma.go();
-		kuruma.light();
-		patoka.go();
-		patoka.light();
-		densya.go();
-		densya.horn();
+	public void execute(ArrayList<Toy> omocha) {
+		for(int i = 0; i < omocha.size(); i++) {
+			Toy toy = omocha.get(i);
+			toy.go();
+			toy.out();
+		}
 	}
 }

@@ -1,5 +1,5 @@
 package Shop;
-public class TrainToy {
+public class TrainToy implements Toy {
 	private String code_;
 	private int price_;
 
@@ -28,7 +28,7 @@ public class TrainToy {
 		System.out.println("ガタンゴトン！！！");
 	}
 
-	public void horn() {
+	public void out() {
 		System.out.println("フォーン！！！");
 	}
 	

@@ -1,5 +1,5 @@
 package Shop;
-public class CarToy {
+public class CarToy implements Toy {
 	private String code_;// 商品コード
 	private int price_;// 価格
 
@@ -29,7 +29,7 @@ public class CarToy {
 		System.out.println("ブーン！！！");
 	}	
 
-	public void light() {
+	public void out() {
 		System.out.println("ピカー！！！");
 	}
 }

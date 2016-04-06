@@ -1,4 +1,5 @@
 package Shop;
+import java.util.ArrayList;
 public interface Demo {
-	void execute(CarToy kuruma, PatrolCarToy patoka, TrainToy densya);
+	void execute(ArrayList<Toy> omocha);
 }

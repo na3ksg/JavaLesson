@@ -1,4 +1,5 @@
 package Shop;
+import java.util.ArrayList;
 public class ShopKeeper {
 	private String name_;
 	private Demo demo_;
@@ -17,9 +18,9 @@ public class ShopKeeper {
 		
 	}
 
-	public void doDemo(CarToy kuruma, PatrolCarToy patoka, TrainToy densya) {
+	public void doDemo(ArrayList<Toy> omocha) {
 		System.out.println("私が店長の" + name_ + "だ！これからデモをするぞ！");
-		demo_.execute(kuruma, patoka, densya);
+		demo_.execute(omocha);
 		System.out.println("\n");
 		
 	}
