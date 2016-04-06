@@ -6,7 +6,7 @@ public class ShopKeeper {
 		name_ = name;
 	}
 
-	public void checkPrice(CarToy kuruma1, PatrolCarToy patoka, TrainToy train1) {
+	public void checkPrice(CarToy kuruma1, CarToy patoka, TrainToy train1) {
 		System.out.println("私が店長の" + name_ + "だ！これから価格をチェックするぞ！");
 		System.out.println("商品コード：" + kuruma1.getCode() + "の価格は" + kuruma1.getPrice() + "です。");
 		System.out.println("商品コード：" + patoka.getCode() + "の価格は" + patoka.getPrice() + "です。");
@@ -15,7 +15,7 @@ public class ShopKeeper {
 		
 	}
 
-	public void doDemo(CarToy kuruma1, PatrolCarToy patoka, TrainToy train1) {
+	public void doDemo(CarToy kuruma1,  CarToy patoka, TrainToy train1) {
 		System.out.println("私が店長の" + name_ + "だ！これからデモをするぞ！");
 		System.out.println("クルマ1を走らせるぞ！");
 		kuruma1.go();
