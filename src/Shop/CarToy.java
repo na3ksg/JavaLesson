@@ -1,5 +1,5 @@
 package Shop;
-public class CarToy implements Toy {
+public class CarToy {
 	private String code_;// 商品コード
 	private int price_;// 価格
 
