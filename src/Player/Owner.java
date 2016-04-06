@@ -4,7 +4,7 @@ public class Owner {
 		// TODO code application logic here
 		AudioPlayer myAudioPlayer = new AudioPlayer();
 		VideoPlayer myVideoPlayer = new VideoPlayer();
-		AVPlayer myAVPlayer = myAudioPlayer;
+		AVPlayer myAVPlayer = myVideoPlayer;
 		myAVPlayer.play();
 	}
 	
